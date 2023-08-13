@@ -1,3 +1,4 @@
+package com.teachmeskills.lesson5;
 
 /**
  * 1. Шахматная доска.

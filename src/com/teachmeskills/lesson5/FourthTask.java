@@ -1,10 +1,12 @@
-/**
- * Создайте двумерный массив целых чисел.
- * Выведите на консоль сумму всех элементов массива
- */
+package com.teachmeskills.lesson5;
+
 import java.util.Arrays;
 import java.util.Scanner;
-public class ThirdTask {
+/**
+ * Создайте двумерный массив целых чисел.
+ * Выведите на консоль диагонали массива
+ */
+public class FourthTask {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter row number");
@@ -18,12 +20,25 @@ public class ThirdTask {
             }
         }
         System.out.println(Arrays.deepToString(array));
-        int sum = 0;
-        for(int i = 0; i < array.length; i++){
-            for(int j = 0; j < array[i].length; j++){
-                sum +=array[i][j];
+        // main diagonal
+        System.out.println("Main diagonal ");
+        for(int i =0; i < array.length; i++){
+            for(int j = 0; j<array[i].length; j++){
+                if(i==j){
+                    System.out.print(" " + array[i][j]);
+                }
             }
         }
-        System.out.println("sum of all arrays elements " + sum);
+        System.out.println("\n");
+        //secondary diagonal
+        System.out.println("Secondary diagonal ");
+        int maxIdx = array.length - 1;
+        for(int i = 0; i < array.length; i++){
+            for(int j = 0; j < array[i].length; j++){
+                if(i + j == maxIdx){
+                    System.out.print(" " + array[i][j]);
+                }
+            }
+        }
     }
 }
