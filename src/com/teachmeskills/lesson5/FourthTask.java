@@ -1,11 +1,10 @@
-package com.teachmeskills.lesson5;
-
-import java.util.Arrays;
-import java.util.Scanner;
 /**
  * Создайте двумерный массив целых чисел.
  * Выведите на консоль диагонали массива
  */
+package com.teachmeskills.lesson5;
+import java.util.Arrays;
+import java.util.Scanner;
 public class FourthTask {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

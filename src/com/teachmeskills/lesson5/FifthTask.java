@@ -1,5 +1,8 @@
+/**
+ * Создайте двумерный массив целых чисел. Отсортируйте элементы в
+ * строках двумерного массива по возрастанию.
+ */
 package com.teachmeskills.lesson5;
-
 import java.util.Arrays;
 import java.util.Scanner;
 

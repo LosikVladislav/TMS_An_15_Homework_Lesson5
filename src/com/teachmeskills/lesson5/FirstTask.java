@@ -1,11 +1,10 @@
-package com.teachmeskills.lesson5;
-
 /**
  * 1. Шахматная доска.
  * Создать программу для раскраски шахматной доски с помощью цикла.
  * Создать двумерный массив String-ов 8х8. С помощью циклов задать
  * элементам циклам значения B(Black) и W(White)
  */
+package com.teachmeskills.lesson5;
 public class FirstTask {
     public static void main(String[] args) {
         String[][] array = new String[8][8];

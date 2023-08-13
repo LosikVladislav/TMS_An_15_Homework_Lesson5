@@ -1,14 +1,12 @@
-package com.teachmeskills.lesson5;
-
-import java.util.Arrays;
-import java.util.Scanner;
-
 /**
  * создать трехмерный массив из целых чисел
  * С помощью циклов пройти по всему массиву и увеличить каждый
  * элемент на заданное число. Пусть число, на которое будет
  * увеличиваться каждый элемент, задается из консоли.
  */
+package com.teachmeskills.lesson5;
+import java.util.Arrays;
+import java.util.Scanner;
 public class ZeroTask {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
