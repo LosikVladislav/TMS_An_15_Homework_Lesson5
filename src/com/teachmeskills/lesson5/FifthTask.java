@@ -23,27 +23,5 @@ public class FifthTask {
             sortArr[i] = array[i];
         }
         System.out.println("sorted array " + Arrays.deepToString(sortArr));
-//        System.out.println(Arrays.deepToString(array));
-//        int temp = 0;
-//        for(int i = 0; i < array.length; i++){
-//            for(int j = 0; j < array[i].length; j++){
-//                for(int k = 0; k < array.length; k++){
-//                    for(int n = 0; n < array[k].length; n++){
-//                        if(array[k][n] > array[i][j]){
-//                            temp = array[k][n];
-//                            array[k][n] = array[i][j];
-//                            array[i][j] = temp;
-//                        }
-//                    }
-//                }
-//            }
-//        }
-//        System.out.println("Sorted array ");
-//        for(int i = 0; i < array.length; i++){
-//            for(int j = 0; j < array[i].length; j++){
-//                System.out.println(" " + array[i][j]);
-//            }
-//        }
-//        System.out.println(Arrays.deepToString(array));
     }
 }
